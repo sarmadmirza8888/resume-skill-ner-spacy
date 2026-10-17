@@ -69,5 +69,3 @@ Contact / author
 - Your Name — GitHub: @sarmadmirza8888
 - Email: sarmadmirza8888@gmail.com
 
-License
-- MIT (add LICENSE file if you want to reuse this template).
