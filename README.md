@@ -2,7 +2,6 @@
 
 A spaCy-based Named Entity Recognition (NER) pipeline to extract SKILL entities from curriculum vitae / resumes. This project contains the end-to-end notebook used for dataset inspection, annotation cleaning, training, evaluation, and model export.
 
-TL;DR
 - Notebook: notebooks/spacy-model-train.ipynb — trains a single-label NER model (SKILL) from annotated CV JSONs.
 - Recommended repo name: `resume-skill-ner` (or `spacy-skill-extractor`).
 - Quick result (from the notebook): cleaned-model evaluation — Precision ≈ 58.9%, Recall ≈ 62.3%, F1 ≈ 60.5% (see notebook for full training logs and token-level metrics).
@@ -65,19 +64,7 @@ Model artifacts and size
   - GitHub Releases to host model files, or
   - Git LFS for versioned large files, or
   - provide a download link in README.
-
-Recommended repository structure
-- README.md
-- notebooks/
-  - spacy-model-train.ipynb
-- data_sample/
-  - sample_01.json
-- src/
-  - utils.py (optional: helper functions extracted from the notebook)
-- requirements.txt
-- .gitignore
-- LICENSE (MIT recommended)
-
+    
 Contact / author
 - Your Name — GitHub: @sarmadmirza8888
 - Email: sarmadmirza8888@gmail.com
