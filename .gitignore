@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.env
+.venv/
+venv/
+.envrc
+
+# Jupyter
+.ipynb_checkpoints
+
+# Data and models
+data_sample/
+models/
+kaggle/working/
+*.h5
+*.ckpt
+
+# OS
+.DS_Store
+Thumbs.db
